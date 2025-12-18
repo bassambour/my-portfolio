@@ -1,0 +1,12 @@
+.fade-in-up, .fade-in-right {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fade-in-right {
+  transform: translateX(40px);
+}
+.show {
+  opacity: 1;
+  transform: translateY(0) translateX(0);
+}
